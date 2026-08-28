@@ -279,6 +279,29 @@ h1 em {
   animation-delay: .15s;
 }
 
+.icon-links {
+  margin: .65rem 0 0;
+  color: var(--muted);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.75rem;
+  line-height: 1.15;
+}
+
+.icon-links a {
+  color: var(--deep-purple);
+  text-underline-offset: .18em;
+}
+
+.icon-links a:hover,
+.icon-links a:focus-visible {
+  color: var(--ink);
+}
+
+.icon-links a:focus-visible {
+  outline: 2px solid var(--lavender);
+  outline-offset: 3px;
+}
+
 @keyframes reveal {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
